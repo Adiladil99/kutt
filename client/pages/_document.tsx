@@ -53,6 +53,7 @@ class AppDocument extends Document<Props> {
             content={`https://${publicRuntimeConfig.DEFAULT_DOMAIN}`}
           />
           <meta property="og:type" content="website" />
+          <meta name="robots" content="noindex, nofollow"/>
           <meta property="og:title" content={publicRuntimeConfig.SITE_NAME} />
           <meta
             property="og:image"
