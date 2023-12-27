@@ -67,7 +67,7 @@ class MyApp extends App<any> {
       <>
         <Head>
           <title>
-            {publicRuntimeConfig.SITE_NAME} | Modern Open Source URL shortener.
+            {publicRuntimeConfig.SITE_NAME} | Moderns Open Source URL shortener.
           </title>
         </Head>
         <StoreProvider store={this.store}>
