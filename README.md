@@ -1,4 +1,4 @@
-<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
+<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/Adiladil99/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
 
 # Kutt.it
 
@@ -8,10 +8,10 @@ _Contributions and bug reports are welcome._
 
 [https://kutt.it](https://kutt.it)
 
-[![Build Status](https://travis-ci.org/thedevs-network/kutt.svg?branch=v2-beta)](https://travis-ci.org/thedevs-network/kutt)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
-[![GitHub license](https://img.shields.io/github/license/thedevs-network/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/thedevs-network/kutt/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fthedevs-network%2Fkutt%2F)
+[![Build Status](https://travis-ci.org/Adiladil99/kutt.svg?branch=v2-beta)](https://travis-ci.org/Adiladil99/kutt)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Adiladil99/kutt/#contributing)
+[![GitHub license](https://img.shields.io/github/license/Adiladil99/kutt.svg)](https://github.com/Adiladil99/kutt/blob/develop/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Adiladil99/kutt/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAdiladil99%2Fkutt%2F)
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@ _Contributions and bug reports are welcome._
 
 You need to have [Node.js](https://nodejs.org/), [PostgreSQL](https://www.postgresql.org/) and [Redis](https://redis.io/) installed.
 
-1. Clone this repository or [download the latest zip](https://github.com/thedevs-network/kutt/releases).
+1. Clone this repository or [download the latest zip](https://github.com/Adiladil99/kutt/releases).
 2. Copy `.example.env` to `.env` and fill it properly ([see below](#configuration)).
 3. Install dependencies: `npm install`.
 4. Run for development: `npm run dev`.
@@ -66,7 +66,7 @@ You need to have [Node.js](https://nodejs.org/), [PostgreSQL](https://www.postgr
 
 ### Docker
 
-1. Download the [`docker-compose.yml`](https://raw.githubusercontent.com/thedevs-network/kutt/develop/docker-compose.yml) and the [`.docker.env`](https://raw.githubusercontent.com/thedevs-network/kutt/develop/.docker.env) files.
+1. Download the [`docker-compose.yml`](https://raw.githubusercontent.com/Adiladil99/kutt/develop/docker-compose.yml) and the [`.docker.env`](https://raw.githubusercontent.com/Adiladil99/kutt/develop/.docker.env) files.
 2. Rename `.docker.env` to `.env` and fill it properly ([see below](#configuration)).
 3. To execute Kutt you simply have to run `docker-compose up -d` command and then the app should be ready on port "3000".
 
@@ -80,7 +80,7 @@ For the minimal configuration the following settings have to be changed in the `
 - **DB_**: The DB credentials (when you use docker-compose you can skip these)
 - **ADMIN_EMAILS**: A comma-separated list of the administrator-accounts
 - **RECAPTCHA_**: Enter your credentials to use reCaptchas or delete this setting if you don't want to use it
-- **MAIL_**: Enter the SMTP-server's credentials (The experience shows SSL works better than STARTTLS; The mail config is required to easily create accounts, see [this comment](https://github.com/thedevs-network/kutt/issues/269#issuecomment-628604256) how it can be done manually)
+- **MAIL_**: Enter the SMTP-server's credentials (The experience shows SSL works better than STARTTLS; The mail config is required to easily create accounts, see [this comment](https://github.com/Adiladil99/kutt/issues/269#issuecomment-628604256) how it can be done manually)
 - **REPORT_EMAIL**: Kutt offers a form to report malicious links which are sent to this mail-address
 
 ## Browser Extensions
@@ -98,11 +98,11 @@ Visit API v2 documentation on [docs.kutt.it](https://docs.kutt.it)
 
 ### ShareX
 
-You can use Kutt as your default URL shortener in [ShareX](https://getsharex.com/). If you host your custom instance of Kutt, refer to [ShareX wiki](https://github.com/thedevs-network/kutt/wiki/ShareX) on how to setup.
+You can use Kutt as your default URL shortener in [ShareX](https://getsharex.com/). If you host your custom instance of Kutt, refer to [ShareX wiki](https://github.com/Adiladil99/kutt/wiki/ShareX) on how to setup.
 
 ### Alfred Workflow
 
-Download Kutt's official workflow for [Alfred](https://www.alfredapp.com/) app from [alfred-kutt](https://github.com/thedevs-network/alfred-kutt) repository.
+Download Kutt's official workflow for [Alfred](https://www.alfredapp.com/) app from [alfred-kutt](https://github.com/Adiladil99/alfred-kutt) repository.
 
 ## 3rd Party packages
 | Language   | Link                                                                              | Description                                        |
