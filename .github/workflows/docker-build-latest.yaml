@@ -2,12 +2,12 @@ name: docker-build-latest
 
 env:
   dockerhub_repository: "kutt/kutt"
-  dockerhub_tag: "develop"
+  dockerhub_tag: "main"
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   dockerhub-build-push:
